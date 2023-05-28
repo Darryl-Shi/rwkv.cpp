@@ -51,16 +51,6 @@ On Windows: to check whether your CPU supports AVX2 or AVX-512, [use CPU-Z](http
 
 This option is recommended for maximum performance, because the library would be built specifically for your CPU and OS.
 
-##### Windows
-
-**Requirements**: [CMake](https://cmake.org/download/) or [CMake from anaconda](https://anaconda.org/conda-forge/cmake), MSVC compiler.
-
-```commandline
-cmake .
-cmake --build . --config Release
-```
-
-If everything went OK, `bin\Release\rwkv.dll` file should appear.
 
 ##### Linux / MacOS
 
